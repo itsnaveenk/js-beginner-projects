@@ -1,0 +1,34 @@
+html {
+    margin: 0;
+}
+
+body {
+
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.wrapper {
+    height: 720px;
+
+}
+
+form {
+    font-size: larger;
+}
+
+button {
+    height: 33px;
+    aspect-ratio: 4;
+}
+
+#results {
+    font-size: 35px;
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
+}
+
+.details {
+    margin-top: 80px;
+    font-size: large;
+}

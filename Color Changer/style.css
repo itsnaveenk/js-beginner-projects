@@ -1,0 +1,63 @@
+/* Reset default margin and apply background color */
+body {
+    margin: 0;
+    background-color: rgb(195, 203, 203);
+}
+
+/* Set fullbody dimensions */
+.fullbody {
+    height: 100vh;
+    width: 100%;
+}
+
+/* Center content vertically and horizontally */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7vh;
+}
+
+/* Apply margin to h2 */
+h2 {
+    margin: 70px;
+}
+
+/* Set common styles for containers */
+.container, .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Add gap between container items */
+.container {
+    gap: 2rem;
+}
+
+/* Apply common styles for buttons */
+.button {
+    height: 100px;
+    width: 100px;
+    border-radius: 5%;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+/* Set font size for descriptions */
+.description {
+    margin: 1rem;
+    font-size: large;
+}
+
+/* Color-specific styles */
+#grey { background-color: grey; }
+#white { background-color: white; }
+#blue { background-color: blue; }
+#yellow { background-color: yellow; }
+
+.copyright{
+    margin: auto;
+}
